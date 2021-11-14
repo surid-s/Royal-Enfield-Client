@@ -6,14 +6,14 @@ import useAuth from '../../hooks/useAuth';
 const MakeAdmin = () => {
     const [email, setEmail] = useState('');
     const [success, setSuccess] = useState(false);
-     const { token } = useAuth
+    const { token } = useAuth
 
     const handleOnBlur = e => {
         setEmail(e.target.value);
     }
     const handleAdminSubmit = e => {
         const user = { email };
-        fetch('localhost:5000/users/admin', {
+        fetch(' https://young-tundra-04609.herokuapp.com/users/admin', {
             method: 'PUT',
             headers: {
                 // 'authorization': `Bearer ${token}`,

@@ -13,7 +13,7 @@ const Shipping = () => {
     const onSubmit = data => {
         const savedCart = getStoredCart();
         data.order = savedCart;
-        fetch('localhost:5000/order', {
+        fetch(' https://young-tundra-04609.herokuapp.com/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -56,7 +56,7 @@ const Shipping = () => {
                                             </form>
                                         </div>
                                         <div className="col-sm-12 col-md-5 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
- <img src="https://mdbootstrap.com/img/Photos/new-templates/bootstrap-registration/draw1.png" className="img-fluid" alt="" />
+                                            <img src="https://mdbootstrap.com/img/Photos/new-templates/bootstrap-registration/draw1.png" className="img-fluid" alt="" />
                                         </div>
                                     </div>
                                 </div>

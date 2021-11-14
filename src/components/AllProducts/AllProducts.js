@@ -9,7 +9,7 @@ const AllProducts = () => {
     const [cart, setCart] = useCart();
 
     useEffect(() => {
-        fetch("localhost:5000/explore")
+        fetch(" https://young-tundra-04609.herokuapp.com/explore")
             .then(res => res.json())
             .then(data => setAllProducts(data));
     }, [])
@@ -31,13 +31,13 @@ const AllProducts = () => {
     }
     return (
         <div>
-             <div className="home-service-container">
+            <div className="home-service-container">
                 {allProducts.length === 0 ? <Spinner animation="border" variant="primary" /> :
                     allProducts.map(allProduct =>
                         <AllProduct
                             key={allProduct._id}
                             allProduct={allProduct}
-                            handleAddToCart = {handleAddToCart}
+                            handleAddToCart={handleAddToCart}
                         >
                         </AllProduct>
                     )

@@ -10,7 +10,7 @@ const ServiceHome = () => {
     const [services, setServices] = useState([]);
     const [cart, setCart] = useCart();
     useEffect(() => {
-        fetch("localhost:5000/products")
+        fetch(" https://young-tundra-04609.herokuapp.com/products")
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])

@@ -7,7 +7,7 @@ const CaroselReview = () => {
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
-        fetch("localhost:5000/reviews")
+        fetch(" https://young-tundra-04609.herokuapp.com/reviews")
             .then(res => res.json())
             .then(data => setReviews(data));
     }, [])

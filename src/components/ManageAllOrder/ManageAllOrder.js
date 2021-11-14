@@ -7,29 +7,29 @@ const ManageAllOrder = () => {
     const [control, setConrol] = useState(false);
 
     useEffect(() => {
-        fetch("localhost:5000/allOrder")
+        fetch(" https://young-tundra-04609.herokuapp.com/allOrder")
             .then((res) => res.json())
             .then((data) => setOrder(data));
     }, [control]);
 
     const handleDelete = (id) => {
-            fetch(`localhost:5000/deleteOrder/${id}`, {
-                method: "DELETE",
-                headers: { "content-type": "application/json" },
-            })
-                .then((res) => res.json())
-                .then((data) => {
-                    if (data.deletedCount) {
-                       
-                    } else {
-                        setConrol(false);
-                    }
-                });
-        
-    }                                                                                                  
+        fetch(` https://young-tundra-04609.herokuapp.com/deleteOrder/${id}`, {
+            method: "DELETE",
+            headers: { "content-type": "application/json" },
+        })
+            .then((res) => res.json())
+            .then((data) => {
+                if (data.deletedCount) {
+
+                } else {
+                    setConrol(false);
+                }
+            });
+
+    }
 
     const handleStatus = (id) => {
-        fetch(`localhost:5000/updateStatus/${id}`, {
+        fetch(` https://young-tundra-04609.herokuapp.com/updateStatus/${id}`, {
             method: "PUT",
             headers: {
                 'Content-Type': 'application/json'
@@ -39,7 +39,7 @@ const ManageAllOrder = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.modifiedCount > 0) {
-            
+
                 }
             })
     }

@@ -5,7 +5,7 @@ import './ReviewRating.css';
 const ReviewRating = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = (data) => {
-        fetch("localhost:5000/review", {
+        fetch(" https://young-tundra-04609.herokuapp.com/review", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
@@ -13,7 +13,7 @@ const ReviewRating = () => {
             .then((res) => res.json())
             .then((result) => {
             });
-      
+
     };
 
     return (

@@ -6,9 +6,9 @@ import useAuth from '../../hooks/useAuth';
 const MyOrder = () => {
     const { user } = useAuth();
     const [order, setOrder] = useState([]);
-  
+
     useEffect(() => {
-        fetch(`localhost:5000/myOrder/${user?.email}`)
+        fetch(` https://young-tundra-04609.herokuapp.com/myOrder/${user?.email}`)
             .then((res) => res.json())
             .then((data) => setOrder(data));
     }, [user.email]);
@@ -17,14 +17,14 @@ const MyOrder = () => {
     const handleDelete = (id) => {
         const proceed = window.confirm('Are you sure?');
         if (proceed) {
-            fetch(`localhost:5000/deleteOrder/${id}`, {
+            fetch(` https://young-tundra-04609.herokuapp.com/deleteOrder/${id}`, {
                 method: "DELETE",
                 headers: { "content-type": "application/json" },
             })
                 .then((res) => res.json())
                 .then((data) => {
                     if (data.deletedCount) {
-                       
+
                     }
                 });
         }

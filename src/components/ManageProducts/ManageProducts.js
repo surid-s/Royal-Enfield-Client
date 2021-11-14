@@ -7,25 +7,25 @@ const ManageProducts = () => {
     const [control, setConrol] = useState(false);
 
     useEffect(() => {
-        fetch("localhost:5000/explore")
+        fetch(" https://young-tundra-04609.herokuapp.com/explore")
             .then((res) => res.json())
             .then((data) => setAllProducts(data));
     }, [control]);
 
     const handleDelete = (id) => {
 
-            fetch(`localhost:5000/deleteProduct/${id}`, {
-                method: "DELETE",
-                headers: { "content-type": "application/json" },
-            })
-                .then((res) => res.json())
-                .then((data) => {
-                    if (data.deletedCount) {
-                        setConrol(!control);
-                    } else {
-                        setConrol(false);
-                    }
-                });
+        fetch(` https://young-tundra-04609.herokuapp.com/deleteProduct/${id}`, {
+            method: "DELETE",
+            headers: { "content-type": "application/json" },
+        })
+            .then((res) => res.json())
+            .then((data) => {
+                if (data.deletedCount) {
+                    setConrol(!control);
+                } else {
+                    setConrol(false);
+                }
+            });
     }
     return (
         <div className="container table-responsive">
@@ -47,7 +47,7 @@ const ManageProducts = () => {
                         <tr>
                             <td>{index}</td>
                             <td>{pd.name}</td>
-                            <td><img style={{height:'40px', width:'40px'}} src={pd.img} alt='' /></td>
+                            <td><img style={{ height: '40px', width: '40px' }} src={pd.img} alt='' /></td>
                             <td>{pd.price}</td>
                             <td>
                                 <button

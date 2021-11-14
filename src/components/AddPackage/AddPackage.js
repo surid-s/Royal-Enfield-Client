@@ -5,7 +5,7 @@ const AddPackage = () => {
     const { register, handleSubmit } = useForm();
 
     const onSubmit = (data) => {
-        fetch("localhost:5000/addProduct", {
+        fetch(" https://young-tundra-04609.herokuapp.com/addProduct", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
