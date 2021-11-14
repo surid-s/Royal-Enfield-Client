@@ -1,0 +1,110 @@
+[
+  {
+    "id": 101,
+    "name": "Anaesthesia",
+    "details": "Anaesthesia means loss of sensation. Medicines that cause anaesthesia are called anaesthetics. Anaesthetics are used during tests and surgical operations to numb sensation in certain areas of the body or induce sleep.",
+    "image": "https://img.etimg.com/thumb/msid-49275070,width-1200,height-900,imgsize-224067,overlay-etpanache/photo.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Blood Bank",
+    "details": " A blood bank is a place where blood is collected and stored before it is used for transfusions. Blood banking takes place in the lab. This is to make sure that donated blood and blood products are safe before they are used.",
+    "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2017-04/03/full/1491221688-8675.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Bone Marrow Transplant",
+    "details": "A bone marrow transplant is a medical treatment that replaces your bone marrow with healthy cells. The replacement cells can either come from your own body ...",
+    "image": "https://www.fortishealthcare.com/speciality_banner/mobile/Bmt.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Breast Cancer",
+    "details": "Breast cancer most often begins with cells in the milk-producing ducts (invasive ductal carcinoma). Breast cancer may also begin in the glandular tissue called lobules (invasive lobular carcinoma) or in other cells or tissue within the breast.",
+    "image": "https://www.narayanahealth.org/blog/wp-content/uploads/2020/12/shutterstock_1697510932.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Cardiac Surgery - Adult",
+    "details": "Cardiovascular surgery, also referred to as cardiac surgery or heart surgery, describes any surgical procedure that involves the heart, or the blood vessels that carry blood to and from the heart.",
+    "image": "https://www.fortishealthcare.com/speciality_banner/mobile/cardiac-surgery.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Cardiology - Adult",
+    "details": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine. ... A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system.",
+    "image": "https://www.genengnews.com/wp-content/uploads/2018/10/GENExclusive_Getty_758308075_KaterynaKon_SciencePhotoLibrary_GettyImages_Heart.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Critical Care",
+    "details": "Critical care is medical care for people who have life-threatening injuries and illnesses. It usually takes place in an intensive care unit (ICU). A team of specially-trained health care providers gives you 24-hour care. This includes using machines to constantly monitor your vital signs.",
+    "image": "https://www.fortishealthcare.com/speciality_banner/mobile/critical-care-medicine.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Dental Sciences",
+    "details": "Dental Sciences is a disciplinary field that aims to disseminate information, scholarship experience in education, practice and investigation between Dental status and quality of care for individuals, families and communities.",
+    "image": "https://www.sagarhospitals.in/wp-content/themes/sagar/images/department_images/Department-of-Dental-Sciences-and-Maxillofacial-Surgeries_tn.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Diabetology",
+    "details": "The key distinction between Diabetologist and Endocrinologist. Diabetologists treat solely Diabetic patients whereas Endocrinologists provide treatment for the patients having medical specialty issues. To become a Diabetologist one must have M.D degree generally medication",
+    "image": "https://storage.cashlesshealthcare.com/clhcapps-trade-static/wp-content/uploads/2021/06/24134612/diabetology.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Endocrinology",
+    "details": "Endocrinology is the study of hormones. Hormones are essential for our every-day survival. They control our temperature, sleep, mood, stress, growth and more. An endocrinologist is a doctor that treats diseases related to problems with hormones. A hormone is a chemical messenger that travels from one cell to another.",
+    "image": "https://www.news-medical.net/image.axd?picture=2018%2F6%2Fshutterstock_441984037.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Gynaecology - Oncology",
+    "details": "Gynecologic oncologists offer an integrated approach to the diagnosis and surgical management of cancerous and noncancerous (benign) conditions of the female reproductive system. These include cervical cancer, endometriosis, fibroids, ovarian cancer, pelvic masses, uterine cancer, vaginal cancer and vulvar cancer.",
+    "image": "https://www.thompsoncancer.com/wp-content/uploads/sites/13/2021/01/realistic-purple-awareness-ribbon-to-world-lupus-day-vector-id1051430618.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Kidney Transplant - Adult",
+    "details": "Kidney transplantation is widely recognized as an effective, and preferred, therapeutic option for the treatment of end-stage renal disease. How long can one expect the kidney transplant to last? On average, transplanted kidneys last between 10 and 12 years.",
+    "image": "https://www.medindia.net/health-images/kidney-donation-safe.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Liver Transplant & HPB Surgery",
+    "details": "Liver transplantation is an ultra-major operation and probably the most difficult of all transplant operations. The hospital mortality rate after liver transplantation has ranged from 2% to 16% 1, 2, 3, 4, 5, 6, most series reporting a rate of about 10%.",
+    "image": "https://storage.cashlesshealthcare.com/clhcapps-trade-static/wp-content/uploads/2021/06/24134612/diabetology.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Neurology",
+    "details": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFpK26bv1hhHsYxp0XYLRc4inkNEhAksX-7g&usqp=CAU"
+  },
+  {
+    "id": 114,
+    "name": "Neurology",
+    "details": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
+    "image": "https://storage.cashlesshealthcare.com/clhcapps-trade-static/wp-content/uploads/2021/06/24134612/diabetology.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Psychiatry & Clinical Psychology",
+    "details": "Psychiatrists are trained to do therapy like clinical psychologists, but many times they focus on medication management. ... The difference is that a psychiatrist is a medical doctor, and a clinical psychologist is a doctor who has earned a doctorate in the field of clinical psychology.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmSlEC02rb2p_M9iJcax-YLhY8KdhV_WBL6w&usqp=CAU"
+  },
+  {
+    "id": 116,
+    "name": "Spine Surgery",
+    "details": "Spinal decompression and fusion: It is the most common spine surgery performed in the U.S., and it's performed to take pressure off of “pinched” nerves and/or the spinal cord and to stabilize the spine.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGy-U75i_-J2mWoy4IT6QuXkSGQn710XDGyVp-gYxhKVgr05qHGGX9T0jECrFkUVBalSE&usqp=CAU"
+  },
+  {
+    "id": 117,
+    "name": "Urology",
+    "details": "Urology is a part of health care that deals with diseases of the male and female urinary tract (kidneys, ureters, bladder and urethra). It also deals with the male organs that are able to make babies (penis, testes, scrotum, prostate, ",
+    "image": "https://www.journalajrru.com/public/journals/83/homepageImage_en_US.jpg"
+  }
+]

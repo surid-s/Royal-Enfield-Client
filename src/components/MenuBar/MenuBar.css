@@ -1,0 +1,19 @@
+.logo{
+    height:30px;
+}
+.menubar .item{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menubar .item:hover{
+    color:brown;
+}
+.logoutbtn{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    border-radius: 45px;
+    font-weight: 400;
+}
